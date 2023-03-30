@@ -10,8 +10,8 @@ void printHelp() { //this method prints out the instructions
 	std::cout << "Options\n-p, --parents     create parent directories if needed\n-h, --help        display help\n\n";
 }
 
-void tokenize(std::string const& str, const char separator, std::vector<std::string>& out)
-{
+void tokenize(std::string const& str, const char separator, std::vector<std::string>& out) //this method tokenizes the string using /
+{																						   //as a separator
 	size_t start;
 	size_t end = 0;
 
